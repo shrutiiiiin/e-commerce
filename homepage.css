@@ -1,0 +1,234 @@
+/*main html body*/
+body{
+    background-image: url('./galaxy.jpg');
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*main background*/
+.images{
+    display: flex;
+    background: transparent;
+   background-size: 100%;
+   margin: 20px;
+}
+/*right part*/
+.head
+{
+    padding: 20px;
+    padding-top: 35px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 40px;  
+}
+.right{
+  
+    width:104vh;
+}
+/*left part*/
+.left{
+
+ 
+   width: 104vh;
+    
+}
+.para1
+{    
+    margin-bottom: 20px;
+    text-align: center;
+    color: lightskyblue;
+    margin-top: 20px;
+    margin-right: 40px;
+    text-align: right;
+    font-weight: 800;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+    font-style: italic;
+   
+}
+.create{
+   margin-left: 175px;
+    
+    width: 50%;
+    
+}
+.para2{
+    background-position: center;
+  text-align: center;
+    padding: 5px;
+    width: 100%;
+    font-weight: 800;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-style: italic;
+   
+    background-color: rgb(200, 200, 200) ;
+    color: black;
+    border-radius: 50px;
+   
+    animation-name: xyz;
+    animation-duration: 2s;
+    animation-iteration-count: 500;
+}
+.texts{
+    text-decoration: none;
+}
+@keyframes xyz
+{
+   25% { background-color:rgb(110, 110, 110);}
+   25%{ background-color: rgb(140, 140, 140);}
+   50% { background-color: rgb(80, 80, 80);}
+   50%{ background-color: rgb(170, 170,170);}
+
+}
+
+/*ibelong*/
+.ibelong{
+    border-radius: 30px;
+    background: rgb(30, 30, 30);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.r{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 90px;
+    margin-top: 0;
+}
+.col{
+   
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col img{
+  
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col h1{
+    margin-left: 27%;
+    color: blueviolet;
+   
+    font-size: 40px;
+    line-height: 60px;
+   
+}
+.col p{
+    color: deeppink;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+/*slideshow*/
+
+.slideshow{
+
+    margin-bottom: 70px;
+}
+.frame{
+    margin-left: 65px;
+    border: 10px black;overflow: hidden;
+    height: 321px;
+    width: 1085px;
+    border-radius: 15px;
+}
+.img{
+    height: 321px;
+    width: 1085px;
+}
+.slides{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite alternate;
+  
+}
+
+@-webkit-keyframes slide{
+    background-position: inherit;
+    0%{transform: translate(0%);}
+    25%{transform: translate(0%);}
+    30%{transform: translate(-100%);}
+    50%{transform: translate(-100%);}
+    55%{transform: translate(-200%);}
+    75%{transform: translate(-200%);}
+    80%{transform: translate(-300%);}
+    100%{transform: translate(-300%);}
+}
+
+/*featured products*/
+.featured{
+  padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 0, 43);
+   
+    
+}
+.featuredcontainer{
+    background: pink;
+   border-radius: 40px;
+   margin: 50px;
+   padding-bottom: 30px;
+   
+    
+   
+}
+.products img{
+    margin:30px;
+    width: 301px;
+}
+.rows{
+    display: flex;
+    min-width: 250px;
+}
+.small-container{
+   
+    max-width: 1080px;
+    margin: auto;
+}
+
+.txtrating{
+    text-align: center;
+    font-size: medium;
+}
+
+.y{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    margin-left: 35px;
+    margin-top: 0;
+}
+.colwhy p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    line-height: 25px;
+}
+.colwhy{
+   
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.why{
+    border-radius: 15px;
+    background: rgb(180, 180, 180);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 70px;
+  
+}
+.colwhy img{
+  max-width: 100%;
+}
+.colwhy h1{
+    color: rgb(48, 13, 80);
+    margin-left: 18%;
+    font-size: 40px;
+    line-height: 60px;
+   
+}

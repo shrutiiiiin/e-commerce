@@ -1,1 +1,1 @@
-# e-commerce
+# mini-project

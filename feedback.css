@@ -1,0 +1,47 @@
+body
+{
+background-color: pink;
+background-size: cover;
+}
+
+.txt
+{
+width: 300px;
+height: 30px;
+border-radius: 6px;
+
+
+}
+.form{
+    
+     top:55%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+    padding-left: 200px;
+    padding-right:200px;
+}
+.heading{
+     top:05%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+}
+.experience{
+    text-align: center;
+}
+
+.inputs{
+padding:5px;
+    
+}
+.btn{
+    border-color: blue;
+    color: black;
+}
+.btn:hover{
+    border-color: black;
+    color: blue;
+    background-color: aqua;
+}
+

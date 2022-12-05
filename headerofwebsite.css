@@ -1,0 +1,138 @@
+
+.space{
+    height: 50px;
+}
+/*all fonts*/
+html{
+    font-size: 62.5%;
+}
+.header
+{   position: absolute;
+    color: white;
+    background: black;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    top: 0;
+    left: 0;
+}
+
+/*website name*/
+.heading{
+    margin-top: 20px;
+    font-size: 35px; 
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+/*unordered list*/
+.navbar_list{
+    display: flex;
+    gap: 30px;;
+    list-style-type:none;
+}
+
+/*list items*/
+.navbar ul li{
+    margin-top: 10px;
+    padding: 10px;
+}
+.navbar ul li:hover{
+    background: grey;
+}
+
+/*list item text links*/
+.navbar ul li a {
+    color: white;
+    font-size: large;
+    text-decoration:none;
+    font-size: 20px;
+    font-weight:500;
+    transition: all 0.3s;
+}
+.navbar ul li a:hover{
+    color: white;
+}
+
+/*searchbar*/
+.navbar input{
+    margin-top: 10px;
+    color: black;
+    font-size: medium;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding-top:5px;
+    width: 250px;
+    text-align: center ;
+}
+.search{
+    padding: x;
+}
+
+
+/*categories dropdown menu*/
+.categories{
+    
+    display: none;
+}
+.categories ul{
+    
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navbar ul li:hover .categories{
+    display: block;
+    margin-top:10px;
+ 
+    background: black;
+    position: absolute;
+}
+.navbar ul li:hover .categories ul{
+    background: black;
+    display:block;
+    position: absolute;
+}
+.navbar ul li:hover .categories ul li{
+    
+    width: 95px;
+    text-align: center;
+    padding: 10px;
+}
+
+.categories ul li a:hover{
+    background: grey;
+    color: white;
+}
+
+
+/*profile drop down menu*/
+.profile{
+    display: none;
+}
+.profile ul{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navbar ul li:hover .profile{
+    display: block;
+    margin-top:10px;
+    margin-left: -17px;
+    background: black;
+    position: absolute;
+}
+
+.navbar ul li:hover .profile ul li{
+    width: 95px;
+    text-align: center;
+    padding: 10px;
+}
+
+.profile ul li a:hover{
+    color: white;
+    background: grey;
+}
